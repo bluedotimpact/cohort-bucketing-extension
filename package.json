@@ -1,9 +1,13 @@
 {
     "scripts": {
-        "start": "block run",
+        "start": "npm run start:software",
+        "start:software": "block run --remote software",
         "start:shared": "block run --remote shared",
-        "release": "block release",
+        "start:adam": "block run --remote adam",
+        "release": "npm run release:software",
+        "release:software": "block release --remote software",
         "release:shared": "block release --remote shared",
+        "release:adam": "block release --remote adam",
         "test": "jest",
         "lint": "eslint --ext .js,.jsx,.ts,.tsx frontend lib"
     },

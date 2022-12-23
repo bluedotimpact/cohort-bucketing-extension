@@ -40,14 +40,14 @@ To start developing this extension:
 1. Clone this git repository
 2. Install [Node.js](https://nodejs.org/)
 3. Run `npm install`
-4. Run `npm start` (for your local base) or `npm run start:shared` (for the shared base)
+4. Run `npm start` (for the 'Bucketing Extension Base' in the BlueDot Impact software AirTable account)
 5. Load the relevant base
 6. Make changes to the code and see them reflected in the app!
 
-If the changes don't appear to be updating the app, try clicking the extension name then 'Edit extension', then pasting in the server addressed printed to the console from step 4.
+If the changes don't appear to be updating the app, try clicking the extension name then 'Edit extension', then pasting in the server address printed to the console from step 4 (probably `https://localhost:9000`).
 
 Test files end in `.test.ts` or `.test.tsx`. You can run the tests with `npm test`.
 
-Release new versions using `npm run release` (for your local base) or `npm run release:shared` (for the shared base).
+Release new versions using `npm run release` (for your local base) or `npm run release:shared` (for the shared base). If you get the error `airtableApiBlockNotFound`, set up the block CLI with `npx block set-api-key`, getting your API key from the [AirTable account settings page](https://airtable.com/account).
 
 If you want to install this on a new base see [these instructions](https://www.airtable.com/developers/apps/guides/run-in-multiple-bases).

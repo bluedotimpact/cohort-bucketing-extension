@@ -9,6 +9,8 @@
         "release:shared": "block release --remote shared",
         "release:adam": "block release --remote adam",
         "test": "jest",
+        "build": "npm run type-check",
+        "type-check": "tsc --noEmit --esModuleInterop --jsx react frontend/**.tsx lib/**.ts",
         "lint": "eslint --ext .js,.jsx,.ts,.tsx frontend lib"
     },
     "dependencies": {

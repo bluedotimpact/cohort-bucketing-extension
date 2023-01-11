@@ -81,6 +81,8 @@ const sqDist = <K extends string[]>(a: Point<K>, b: Point<K>, keys: K) => {
 }
 
 const calculateClusterSizes = (elementCount: number, targetSize: number): number[] => {
+  if (elementCount === 0) return [];
+
   const clusterCount = Math.max(Math.round(elementCount / targetSize), 1);
   const averageClusterSize = elementCount / clusterCount;
 

@@ -1,4 +1,4 @@
-# bluedot-impact-bucketing-airtable-extension
+# cohort-bucketing-extension ![deployment manual](https://img.shields.io/badge/deployment-manual-critical)
 
 AirTable extension for grouping programme participants into buckets.
 

@@ -1,9 +1,10 @@
-# cohort-bucketing-extension ![deployment manual](https://img.shields.io/badge/deployment-manual-critical)
+_This product is archived. This means we no longer use or develop it._
+
+---
+
+# cohort-bucketing-extension
 
 AirTable extension for grouping programme participants into buckets.
-
-- User tutorial: ***REMOVED***
-- Technical runthrough: ***REMOVED***
 
 ![Screenshot of the Airtable extension](./screenshot.png)
 
